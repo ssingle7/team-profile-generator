@@ -96,7 +96,16 @@ Intern: [{
 ]
 
 //->RUN APP-> 
+function start() {
 
+    inquirer.prompt(addNew).then(answer) => {
+        if(answer.addMember == "Yes") {
+            addRole();
+        }else {
+
+        }
+    } 
+}
 
 
 
