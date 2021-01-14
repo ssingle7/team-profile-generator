@@ -95,6 +95,10 @@ Intern: [{
 }, 
 ]
 
+//->RUN APP-> 
+
+
+
 
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
