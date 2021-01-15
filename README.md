@@ -4,9 +4,9 @@ The purpose of this project was to build a software engineering team generator c
 
 * This app runs as a Node CLI to gather information about each employee.
 
-*There are also unit tests ran to help you build the classes necessary to export user information.
+* There are also unit tests ran to help you build the classes necessary to export user information.
 
-*This application is not fully functional and will require more testing and revisions to use the CLI to generate an HTML page that displays information about their team.  
+* The project must prompt the user to build an engineering team, and that displays a nicely formatted team roster in browser.
 
  # Installation
 
@@ -21,9 +21,9 @@ node app.js.
 
 ### Installation 
 
-![Team Profile](./Team Profile.PNG)
+![Team Profile](/Team Profile.PNG)
 
-link to walk through video: https://drive.google.com/file/d/1k0duHRSDfXud_fUaDU-posUJjMJeIbiJ/view?usp=sharing
+link to walk through video: https://drive.google.com/file/d/1ypeqMEXbwkGxQ36NasSMl6fs5_vhEqGY/view
 
 ### Credits
 
@@ -33,7 +33,7 @@ link to walk through video: https://drive.google.com/file/d/1k0duHRSDfXud_fUaDU-
 
 * Ask BCS 
 
-*Tutor 
+* Tutor
 
 ### License 
 
