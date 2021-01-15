@@ -105,3 +105,29 @@ function start() {
             process.exit(0);
         }
     })
+}
+
+const addNew = {
+    type: "List", 
+    message: "Do you want to add another employee?", 
+    name: "addMember", 
+    choices: ["Yes", "No"], 
+}
+
+function addRole() {
+    inquirer.prompt([{
+        type: "list", 
+        message: "Choose the employee's role:", 
+        name: "employeeChoice", 
+        choices: ["Manager", "Engineer", "Intern",]
+        
+    }]).then(()=> {
+        if(answer.employeeChoice === "Manager" && managerCounter < 1) {
+            managerCounter++
+            inquirer.prompt(teamMembers.Manager).then((results) => {
+
+                const manager = new Manager(results.managerName, results.managerId, results.managerEmail, results.managerofficeNumber)
+            })
+        }
+    })
+}
